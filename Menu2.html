@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menú con Botones que Redirigen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, white, black);
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    nav {
+      background-color: #333;
+      padding: 15px 25px;
+      border-radius: 8px;
+      display: flex;
+      gap: 20px;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+	<h1 align="center">Menú 2</h1>
+  <nav>
+    <button type="button" onclick="location.href='caracterres.php'">Caracteres</button>
+    <button type="button" onclick="location.href='calculadora.php'">Calculadora</button>
+	<button type="button" onclick="location.href='Numero entre 1 y 9,999.php'">Numero entre 1 y 9,999</button>
+    <button type="button" onclick="location.href='Ingreso de 3 numeros.php'">Ordenar 3 numeros</button>
+	<button type="button" onclick="location.href='Ingreso de 2 numeros.php'">Comprar 2 numeros</button>
+  </nav>
+</body>
+</html>
